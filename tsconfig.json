@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Dashboard/DashboardAssignement.jsx", "app/mentordashboard/mentordashboard/[id]/test/page.jsx", "app/mentorProject/[id]/chats/page.jsx", "app/mentorProject/[id]/page.jsx", "app/mentorProject/[id]/submissions/page.jsx", "app/myProjectPage/[id]/assignments/page.jsx", "app/myProjectPage/[id]/chats/page.jsx", "app/page.jsx", "app/projects/[id]/page.jsx", "app/projects/page.jsx", "components/Auth/Signin.jsx", "components/Auth/Signup.jsx", "components/component/mentordashboard.jsx", "components/Dashboard/DashboardChat.jsx", "components/Dashboard/DashboardProject.jsx", "components/Explore/AllProjects.jsx", "components/Explore/Project.jsx", "components/MentorDashboard/MentorProjectAnn.jsx", "components/MentorDashboard/MentorProjectChat.jsx", "components/MentorDashboard/MentorProjectAssign.jsx", "components/MentorDashboard/MentorProjectHome.jsx", "components/MentorDashboard/MentorProjectRes.jsx", "components/MentorDashboard/MentorProjectStud.jsx"],
+  "exclude": ["node_modules"]
+}

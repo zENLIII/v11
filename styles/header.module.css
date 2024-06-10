@@ -1,0 +1,41 @@
+.nav-links {
+    position: relative;
+  }
+  
+  .nav-links .active-link-bg {
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 5px;
+    background-color: currentColor;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-links.active .active-link-bg {
+    width: 100%;
+  }
+  
+  .nav-links.active-link:hover .active-link-bg {
+    width: 100%;
+  }
+  
+  .link-underline::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: currentColor;
+    transition: width 0.2s;
+  }
+  
+  .link-underline:hover::after {
+    width: 100%;
+     transition: width 0.2s;
+  }
+  
+  #navbar {
+    transition: all 0.3s ease-in-out;
+  }
+  
